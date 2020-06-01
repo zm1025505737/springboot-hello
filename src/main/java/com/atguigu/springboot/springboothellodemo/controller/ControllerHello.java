@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class ControllerHello {
+    //手动创建测试springboot
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
